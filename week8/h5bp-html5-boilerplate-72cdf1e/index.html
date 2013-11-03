@@ -21,10 +21,7 @@
 			<h1>Amber Brown</h1>
 			<h2>Web Designer, Lansing, MI</h2>
 		</header>
-		<div id="map-location">
-			<p>
-				Map
-			</p>
+		<div id="map-location" div id="map-location" data-0="background-image:url(img/map.jpg);opacity:.5;" data-500="background-image:url(img/map-pin.jpg);opacity:1;" data-800="opacity:.5;">
 		</div>
 		<nav>
 			<ul>
@@ -42,7 +39,18 @@
 		<article>
 			<section id="portfolio">
 				<h3>Portfolio</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in \ia deserunt mollit anim id est laborum.</p>
+				<ul class="gallery">
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					<li><img alt="portoflio" src="img/portfolio.jpeg"></li>
+					
 		</article>
 		<article>
 			<section id="clients">
@@ -54,9 +62,14 @@
 				<h3>Contact</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in \ia deserunt mollit anim id est laborum.</p>
 		</article>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
+        <script src="js/vendor/skrollr.min.js"></script>
+	    <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-    </body>
+		
+		<script type="text/javascript">
+		    var s = skrollr.init();
+	 </script>
+	</body>
 </html>
