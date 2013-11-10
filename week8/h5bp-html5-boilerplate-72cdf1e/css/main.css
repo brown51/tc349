@@ -316,16 +316,7 @@ article {
 	}
 }
 
-@media screen and (max-width: 400px) {
-  .figure,
-  li#f-portfolio {
-    margin-right: 3.317535545023696682%;    /* 21px / 633px */
-    width: 48.341232227488151658%;          /* 306px / 633px */
-  }  li#f-portfolio,
-  li#f-portfolio{
-    margin-right: 0;
-  }
-}
+
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
