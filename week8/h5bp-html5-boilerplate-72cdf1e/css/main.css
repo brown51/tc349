@@ -153,6 +153,21 @@ article {
 	border-color: #aeccf9;
 }
 
+nav ul {
+	margin: 30px 0 0 40px;
+}
+
+nav a {
+	color: #424242;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	border-top: 1px solid #e3e3e3;
+}
+
+nav a:hover {
+	background: #f3f3f3;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -268,10 +283,49 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 600px) {
+	nav {
+		float: none;
+		width: auto;
+	}
+	
+	article {
+		margin: 20px;
+	}
 }
 
+@media (max-width: 480px) {
+	nav {
+		float: none;
+		width: auto;
+	}
+	
+	article {
+		margin: 20px;
+	}
+}
+
+@media (max-width: 300px) {
+	nav {
+		float: none;
+		width: auto;
+	}
+	
+	article {
+		margin: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+  .figure,
+  li#f-portfolio {
+    margin-right: 3.317535545023696682%;    /* 21px / 633px */
+    width: 48.341232227488151658%;          /* 306px / 633px */
+  }  li#f-portfolio,
+  li#f-portfolio{
+    margin-right: 0;
+  }
+}
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
