@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Amber Brown</title>
+        <meta name="description" content="The homepage of Amber Brown">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/home.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		</script>	
+    </head>
+    <body>
+		<header>
+		<ul id ="nav">
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#home">Home</a></li>
+		</ul>
+	</nav>
+	<ul id="social">
+	   <li class="facebook">
+	      <a href="http://facebook.com/">
+			  <img src = "img/facebook.jpg">
+	      </a>
+	   </li>
+	   <li class="twitter">
+	      <a href="http://twitter.com/">
+			  <img src = "img/twitter.jpg">  
+	      </a>
+	   </li> 
+	   <li class="pinterest">
+	      <a href="http://pinterest.com/">
+			  <img src = "img/pinboard.jpg">  
+	      </a>
+	   </li>
+   </header>
+	   <!-- More services -->
+		<article>
+			<section id = "webdesign">
+					<img src= "img/header.jpg">
+		</article>
+		</header>
+		<div class="gallery">
+		  <ul class="slides"> 
+		    <img src= "img/recentprojects.jpg">
+		  </ul>
+		</div>
+		<article>
+			<section id="footer">
+				<ul id = "footer">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+			<section id="social1">
+					   <li class="facebook">
+					      <a href="http://facebook.com/">
+							  <img src = "img/facebook.jpg">
+					      </a>
+					   </li>
+					   <li class="twitter">
+					      <a href="http://twitter.com/">
+							  <img src = "img/twitter.jpg">  
+					      </a>
+					   </li> 
+					   <li class="pinterest">
+					      <a href="http://pinterest.com/">
+							  <img src = "img/pinboard.jpg">  
+					      </a>
+					   </li>
+					   <!-- More services -->
+					</ul>
+				</ul>
+			
+		</article>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('script src="js/vendor/jquery-1.10.2.min.js">\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+		<script src="js/vendor/skrollr.menu.min.js"></script>
+	    <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+		<script type="text/javascript">
+		if ($(window).width() > 600) {
+		    var s = skrollr.init();
+			
+		skrollr.menu.init(s, {
+		    //skrollr will smoothly animate to the new position using `animateTo`.
+		    animate: true,
+
+		    //The easing function to use.
+		    easing: 'sqrt',
+
+		    //How long the animation should take in ms.
+		    duration: function(currentTop, targetTop) {
+		        //By default, the duration is hardcoded at 500ms.
+		        return 500;
+		    },
+		});
+	}		
+	 </script>
+	</body>
+</html>

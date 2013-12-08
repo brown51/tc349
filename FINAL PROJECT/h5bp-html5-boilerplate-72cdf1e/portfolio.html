@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AB Web Design</title>
+        <meta name="description" content="The homepage of Amber Brown">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/portfolio.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>	
+    </head>
+    <body>
+		<div class="wrapper">
+		<header>
+			<ul id ="nav">
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+			<ul id="social">
+			   <li class="facebook">
+			      <a href="http://facebook.com/amber.brown.3914">
+					  <img src = "img/facebook.jpg" alt="Facebook">
+			      </a>
+			   </li>
+			   <li class="twitter">
+			      <a href="https://twitter.com/nota_crayon">
+					  <img src = "img/twitter.jpg" alt="Twitter">  
+			      </a>
+			   </li> 
+			   <li class="pinterest">
+			      <a href="http://www.pinterest.com/nota_crayon/boards/">
+					  <img src = "img/pinboard.jpg" alt="Pinterest">  
+			      </a>
+			   </ul>
+   </header>
+		<article>
+			<section id = "webdesign">
+					<img src= "img/portfolio.jpg" alt="Portfolio">	
+		</section>
+	</article>	
+		
+		<section id="recent">
+			<h1>Logos</h1>
+			<ul class="gallery">
+				<li><img alt="portoflio" src="img/hdalogo.jpg"></li>
+				<li><img alt="portoflio" src="img/centurylogo.jpg"></li>
+			</ul>
+			</section>
+		<p>
+		<section id="recent1">
+			<h1>Flyers</h1>
+			<ul class="gallery">
+				<li><img alt="portoflio" src="img/customerappreciation.jpg"></li>
+				<li><img alt="portoflio" src="img/grandopening.jpg"></li>
+				<li><img alt="portoflio" src="img/hdaFLYER.jpg"></li>
+				<li><img alt="portoflio" src="img/welcome.jpg"></li>
+			</ul>
+			</section>
+			<p>
+			<section id="recent2">
+				<h1>Webdesign</h1>
+				<ul class="gallery">
+						<li><img alt="portoflio" src="img/hda.jpg"></li>
+					</ul>
+					</section>
+		</div>
+			<div class="push"></div>
+			 <div class="footer">
+				<section id="footer">
+					<ul class = "footer">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</section>
+					 </div>
+			         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+			         <script src="js/vendor/skrollr.min.js"></script>
+			 		<script src="js/vendor/skrollr.menu.min.js"></script>
+			 	    <script src="js/plugins.js"></script>
+			         <script src="js/main.js"></script>
+		
+			 		<script type="text/javascript">
+			 		if ($(window).width() > 600) {
+			 		    var s = skrollr.init();
+			
+			 		skrollr.menu.init(s, {
+			 		    //skrollr will smoothly animate to the new position using `animateTo`.
+			 		    animate: true,
+
+			 		    //The easing function to use.
+			 		    easing: 'sqrt',
+
+			 		    //How long the animation should take in ms.
+			 		    duration: function(currentTop, targetTop) {
+			 		        //By default, the duration is hardcoded at 500ms.
+			 		        return 500;
+			 		    },
+			 		});
+			 	}		
+			 	 </script>
+			 	</body>
+			 </html>
